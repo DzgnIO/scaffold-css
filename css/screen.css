@@ -87,10 +87,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
   float: left;
 }
-
-/* line 25, ../sass/_grid.scss */
-.test {
-  margin: 10px;
+/* line 24, ../sass/_grid.scss */
+.column .content {
+  padding: 10px;
+  margin: 5px;
   background-color: #313131;
   color: #FFF;
 }
@@ -221,62 +221,62 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* Large Screens */
 @media screen and (min-width: 64em) {
-  /* line 69, ../sass/_grid.scss */
+  /* line 70, ../sass/_grid.scss */
   .l1 {
     width: calc(1 * 8%);
   }
 
-  /* line 69, ../sass/_grid.scss */
+  /* line 70, ../sass/_grid.scss */
   .l2 {
     width: calc(2 * 8%);
   }
 
-  /* line 69, ../sass/_grid.scss */
+  /* line 70, ../sass/_grid.scss */
   .l3 {
     width: calc(3 * 8%);
   }
 
-  /* line 69, ../sass/_grid.scss */
+  /* line 70, ../sass/_grid.scss */
   .l4 {
     width: calc(4 * 8%);
   }
 
-  /* line 69, ../sass/_grid.scss */
+  /* line 70, ../sass/_grid.scss */
   .l5 {
     width: calc(5 * 8%);
   }
 
-  /* line 69, ../sass/_grid.scss */
+  /* line 70, ../sass/_grid.scss */
   .l6 {
     width: calc(6 * 8%);
   }
 
-  /* line 69, ../sass/_grid.scss */
+  /* line 70, ../sass/_grid.scss */
   .l7 {
     width: calc(7 * 8%);
   }
 
-  /* line 69, ../sass/_grid.scss */
+  /* line 70, ../sass/_grid.scss */
   .l8 {
     width: calc(8 * 8%);
   }
 
-  /* line 69, ../sass/_grid.scss */
+  /* line 70, ../sass/_grid.scss */
   .l9 {
     width: calc(9 * 8%);
   }
 
-  /* line 69, ../sass/_grid.scss */
+  /* line 70, ../sass/_grid.scss */
   .l10 {
     width: calc(10 * 8%);
   }
 
-  /* line 69, ../sass/_grid.scss */
+  /* line 70, ../sass/_grid.scss */
   .l11 {
     width: calc(11 * 8%);
   }
 
-  /* line 69, ../sass/_grid.scss */
+  /* line 70, ../sass/_grid.scss */
   .l12 {
     width: calc(12 * 8%);
   }
