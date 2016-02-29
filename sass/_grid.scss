@@ -1,0 +1,73 @@
+/* SCSS Global Grid Variables */
+
+$columns: 12;
+$module-w: 10;
+
+/* End Global Grid Variables */
+
+.section {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  display: block;
+  float: left;
+}
+
+.test {
+  margin: 10px;
+  background-color: #313131;
+  color: #FFF;
+}
+
+
+/* Small Screens */
+
+@media screen and (max-width: 39.9375em) {
+  .column {
+    //padding: 0 1%;
+  }
+  
+  @for $i from 1 through $columns {
+    .s#{$i} {
+      width: calc(#{$i} * 8%);
+    }
+  }
+}
+
+
+/* Medium Screens */
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .column {
+    //padding: 0 1%;
+  }
+  
+  @for $i from 1 through $columns {
+    .m#{$i} {
+      width: calc(#{$i} * 8%);
+    }
+  }
+}
+
+
+/* Large Screens */
+
+@media screen and (min-width: 64em) {
+  .column {
+    //padding: 0 1%;
+  }
+  @for $i from 1 through $columns {
+    .l#{$i} {
+      width: calc(#{$i} * 8%);
+    }
+  }
+}

@@ -1,0 +1,2 @@
+# Don't include sass-cache
+.sass-cache
